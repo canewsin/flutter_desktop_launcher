@@ -32,8 +32,20 @@ How to setup for VSCode:
     • Engine revision 3757390fa4
     • Dart version 2.1.2 (build 2.1.2-dev.0.0 0a7dcf17eb)
 ```
-- Download for Windows i already compiled for Windows 10 and waiting to upload files may be in a day
-- Download for [Linux/Debian(Release)](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/linux_launcher_release.zip) or [Linux/Debian(Debug)](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/linux_launcher_debug.zip) or [Mac OS](https://github.com/canewsin/flutter_desktop_launcher/releases/download/v0.0.1-mac/Archive.zip), Mac OS binary files not updated to Latest flutter version anybody can contribute and make pull request && same case for Windows Since i don't have Visual Studio not able to build it, if i could i will push it and post here.. Pull Request should include ``` flutter doctor -v ``` as above.
+
+# Download
+
+- Windows 10  
+   - [Debug](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/flutter_desktop_windows_debug.zip)
+
+- Linix/Debian  
+   - [Release](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/flutter_desktop_linux_release.zip)  
+   - [Debug](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/flutter_desktop_linux_debug.zip)
+  
+- Mac OS  
+   - [Debug](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.0.0/macos_launcher.zip)    
+
+   Mac OS binary files not updated to Latest flutter version anybody can contribute and make pull request, Pull Request should include ``` flutter doctor -v ``` as above.
 - Extract zip archive
 - Copy `Flutter.app` (Mac) / `flutter_desktop + all files` (Linux)/ `flutter_desktop.exe + all files` (Windows) to your project, I had provided 2 folders so choose release version(without asserts and debug label) or debug version as required
 - Modify your `main.dart` add target platform to `Fuchsia`
@@ -50,8 +62,8 @@ How to setup for VSCode:
   ```
 
 - Build flutter bundle inside your project `flutter build bundle`
-- Run `Flutter.app` or `./flutter_desktop`
-- This will give a port insert it below config file.
+- Run `Flutter.app` or `./flutter_desktop` or `flutter_desktop.exe`
+- *This will give a port insert it below config file.
 - Open VS Code Cmd Pannel and search for `Debug: open launch.json`
 - In VS Code create Launch Configuration:
   ```javascript
