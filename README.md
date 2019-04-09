@@ -48,6 +48,8 @@ How to setup for VSCode:
    Mac OS binary files not updated to Latest flutter version anybody can contribute and make pull request, Pull Request should include ``` flutter doctor -v ``` as above.
 - Extract zip archive
 - Copy `Flutter.app` (Mac) / `flutter_desktop + all files` (Linux)/ `flutter_desktop.exe + all files` (Windows) to your project, I had provided 2 folders so choose release version(without asserts and debug label) or debug version as required
+
+# Code Usage
 - Modify your `main.dart` add target platform to `Fuchsia`
 
   ```dart
