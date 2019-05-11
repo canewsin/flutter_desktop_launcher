@@ -26,17 +26,20 @@ How to setup for VSCode:
 
  - For Windows 10 : 
 ```
-[√] Flutter (Channel stable, v1.2.1, on Microsoft Windows [Version 10.0.17763.379], locale en-IN)
-    • Flutter version 1.2.1 at C:\flutter\1.0.0
-    • Framework revision 8661d8aecd (7 weeks ago), 2019-02-14 19:19:53 -0800
-    • Engine revision 3757390fa4
-    • Dart version 2.1.2 (build 2.1.2-dev.0.0 0a7dcf17eb)
+[√] Flutter (Channel stable, v1.5.4-hotfix.2, on Microsoft Windows [Version 10.0.17763.475], locale en-IN)
+    • Flutter version 1.5.4-hotfix.2 at C:\flutter\1.0.0
+    • Framework revision 7a4c33425d (12 days ago), 2019-04-29 11:05:24 -0700
+    • Engine revision 52c7a1e849
+    • Dart version 2.3.0 (build 2.3.0-dev.0.5 a1668566e5)
 ```
+
+If you have lower version than above use zip related to your version but using higher version may not be problem
 
 # Download
 
 - Windows 10  
-   - [Debug](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/flutter_desktop_windows_debug.zip)
+   - [Release](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.5.4/flutter_desktop_windows_release.zip)
+   - [Debug](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.5.4/flutter_desktop_windows_debug.zip)
 
 - Linix/Debian  
    - [Release](https://github.com/canewsin/flutter_desktop_launcher/raw/master/v1.2.1/flutter_desktop_linux_release.zip)  
@@ -63,7 +66,7 @@ How to setup for VSCode:
   }
   ```
 
-- Build flutter bundle inside your project `flutter build bundle`
+- Build flutter bundle inside your project `flutter build bundle` - This is Important Step in the process
 - Run `Flutter.app` or `./flutter_desktop` or `flutter_desktop.exe`
 - *This will give a port insert it below config file.
 - Open VS Code Cmd Pannel and search for `Debug: open launch.json`
